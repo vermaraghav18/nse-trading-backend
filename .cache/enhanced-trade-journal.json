@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "PT-1778657250463-806",
+    "symbol": "SHREECEM",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:30.463Z",
+      "price": 25200,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 59%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 30466.800000000003,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 20.9,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:30.462Z",
+        "symbol": "SHREECEM",
+        "daily": {
+          "close": 25200,
+          "bollingerPosition": "MID",
+          "posture": "Near Support",
+          "distanceToResistance": 20.9,
+          "distanceToSupport": 0.97,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 25200,
+      "peakPriceTime": null,
+      "lowestPrice": 25200,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657250464-563",
+    "symbol": "NBCC",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:30.464Z",
+      "price": 94.04,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 68%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 116.477944,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 23.86,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:30.464Z",
+        "symbol": "NBCC",
+        "daily": {
+          "close": 94.04,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 23.86,
+          "distanceToSupport": 1.54,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 94.04,
+      "peakPriceTime": null,
+      "lowestPrice": 94.04,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657250664-826",
+    "symbol": "ABFRL",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:30.664Z",
+      "price": 64.34,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 66%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 83.667736,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 30.04,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:30.664Z",
+        "symbol": "ABFRL",
+        "daily": {
+          "close": 64.34,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 30.04,
+          "distanceToSupport": 14.16,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 64.34,
+      "peakPriceTime": null,
+      "lowestPrice": 64.34,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657250665-744",
+    "symbol": "COCHINSHIP",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:30.665Z",
+      "price": 1659.8,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 72%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 1907.6081399999998,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 14.93,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:30.665Z",
+        "symbol": "COCHINSHIP",
+        "daily": {
+          "close": 1659.8,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 14.93,
+          "distanceToSupport": 31.39,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 1659.8,
+      "peakPriceTime": null,
+      "lowestPrice": 1659.8,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657250665-645",
+    "symbol": "HBLENGINE",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:30.665Z",
+      "price": 801.2,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 72%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 965.5261200000001,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 20.51,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:30.665Z",
+        "symbol": "HBLENGINE",
+        "daily": {
+          "close": 801.2,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 20.51,
+          "distanceToSupport": 41.91,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 801.2,
+      "peakPriceTime": null,
+      "lowestPrice": 801.2,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657251589-287",
+    "symbol": "JINDALSTEL",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:31.589Z",
+      "price": 1246.5,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 72%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 1314.43425,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 5.45,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:31.589Z",
+        "symbol": "JINDALSTEL",
+        "daily": {
+          "close": 1246.5,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 5.45,
+          "distanceToSupport": 34.96,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 1246.5,
+      "peakPriceTime": null,
+      "lowestPrice": 1246.5,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657251590-665",
+    "symbol": "LODHA",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:31.590Z",
+      "price": 886.65,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 58%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 1175.431905,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 32.57,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:31.590Z",
+        "symbol": "LODHA",
+        "daily": {
+          "close": 886.65,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 32.57,
+          "distanceToSupport": 8.86,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 886.65,
+      "peakPriceTime": null,
+      "lowestPrice": 886.65,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657251590-919",
+    "symbol": "PVRINOX",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:31.590Z",
+      "price": 1028,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 60%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 1184.0503999999999,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 15.18,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:31.590Z",
+        "symbol": "PVRINOX",
+        "daily": {
+          "close": 1028,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 15.18,
+          "distanceToSupport": 14.7,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 1028,
+      "peakPriceTime": null,
+      "lowestPrice": 1028,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657251914-985",
+    "symbol": "GAIL",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:31.914Z",
+      "price": 163.62,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 79%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 189.128358,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 15.59,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:31.913Z",
+        "symbol": "GAIL",
+        "daily": {
+          "close": 163.62,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 15.59,
+          "distanceToSupport": 13.11,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 163.62,
+      "peakPriceTime": null,
+      "lowestPrice": 163.62,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657251915-200",
+    "symbol": "PIIND",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:31.915Z",
+      "price": 3081.1,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 79%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 3710.8768400000004,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 20.44,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:31.915Z",
+        "symbol": "PIIND",
+        "daily": {
+          "close": 3081.1,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 20.44,
+          "distanceToSupport": 11.52,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 3081.1,
+      "peakPriceTime": null,
+      "lowestPrice": 3081.1,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657251916-161",
+    "symbol": "POLICYBZR",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:31.916Z",
+      "price": 1642.9,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 75%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 1932.21469,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 17.61,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:31.916Z",
+        "symbol": "POLICYBZR",
+        "daily": {
+          "close": 1642.9,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 17.61,
+          "distanceToSupport": 3.54,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 1642.9,
+      "peakPriceTime": null,
+      "lowestPrice": 1642.9,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657252100-502",
+    "symbol": "NYKAA",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:32.100Z",
+      "price": 267.6,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 75%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 280.95324000000005,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 4.99,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:32.100Z",
+        "symbol": "NYKAA",
+        "daily": {
+          "close": 267.6,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 4.99,
+          "distanceToSupport": 33.42,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 267.6,
+      "peakPriceTime": null,
+      "lowestPrice": 267.6,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657252542-989",
+    "symbol": "BDL",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:32.542Z",
+      "price": 1370.6,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "MED",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 72%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 1649.24298,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 20.33,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:32.542Z",
+        "symbol": "BDL",
+        "daily": {
+          "close": 1370.6,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 20.33,
+          "distanceToSupport": 16.48,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 1370.6,
+      "peakPriceTime": null,
+      "lowestPrice": 1370.6,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657252543-333",
+    "symbol": "JWL",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:32.543Z",
+      "price": 283.35,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "MED",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 57%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 360.90289500000006,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 27.37,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:32.543Z",
+        "symbol": "JWL",
+        "daily": {
+          "close": 283.35,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 27.37,
+          "distanceToSupport": 16.32,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 283.35,
+      "peakPriceTime": null,
+      "lowestPrice": 283.35,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657252543-566",
+    "symbol": "KAYNES",
+    "status": "CLOSED",
+    "entry": {
+      "timestamp": "2026-05-13T07:27:32.543Z",
+      "price": 4164.8,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "MED",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 69%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 4552.1264,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 9.3,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:27:32.543Z",
+        "symbol": "KAYNES",
+        "daily": {
+          "close": 4164.8,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 9.3,
+          "distanceToSupport": 28.48,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 4164.8,
+      "peakPriceTime": null,
+      "lowestPrice": 4164.8,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": {
+      "timestamp": "2026-05-15T06:45:52.598Z",
+      "price": 3292.1,
+      "exitReason": "STOP_LOSS_1H_MIDDLE_BAND",
+      "reason": "",
+      "shortReason": "1H SL triggered",
+      "triggerDetails": {
+        "triggerType": "STOP_LOSS_1H_MIDDLE_BAND",
+        "triggerCondition": "2 consecutive 1H closes below 1H middle band",
+        "profitAtTrigger": -20.95,
+        "peakProfitBeforeExit": 0.47
+      },
+      "realizedPnL": -872.7,
+      "realizedPnLPercent": -20.95,
+      "peakUnrealizedPnL": 19.7,
+      "peakUnrealizedPnLPercent": 0.47,
+      "gaveBackPnL": 892.4,
+      "gaveBackPercent": 21.43,
+      "marketContext": {
+        "timestamp": "2026-05-15T06:45:52.597Z",
+        "symbol": "KAYNES",
+        "daily": {
+          "close": 3292.1,
+          "bollingerPosition": "LOW",
+          "posture": "Open Range",
+          "distanceToResistance": 28.37,
+          "distanceToSupport": 1.76,
+          "ema7Slant": "DOWNWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 25,
+          "stopLossLevel": null
+        },
+        "twoHour": {
+          "close": 3292.5,
+          "upperBand": 4575.13,
+          "middleBand": 3827.68,
+          "lowerBand": 3080.23,
+          "ema44": 3971.3,
+          "ema7Slant": "DOWNWARD",
+          "ema14Slant": "DOWNWARD",
+          "priceVsEma44": "BELOW_EMA",
+          "trendState": "DOWNTREND"
+        },
+        "oneHour": {
+          "close": 3292.5,
+          "upperBand": 4575.13,
+          "middleBand": 3827.68,
+          "lowerBand": 3080.23,
+          "ema44": 3971.3,
+          "ema7Slant": "DOWNWARD",
+          "priceVsEma44": "BELOW_EMA"
+        }
+      }
+    },
+    "metrics": {
+      "entryAccuracy": "GOOD",
+      "exitAccuracy": "POOR",
+      "holdEfficiency": 0,
+      "riskManagement": "PROTECTED",
+      "setupFollowThrough": false
+    },
+    "tags": [
+      "loss",
+      "stop-loss-1h-middle-band",
+      "hold-0d",
+      "gave-back-profit"
+    ]
+  },
+  {
+    "id": "PT-1778657314141-523",
+    "symbol": "CHENNPETRO",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:28:34.141Z",
+      "price": 1044.1,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 60%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 1122.4074999999998,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 7.5,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:28:34.141Z",
+        "symbol": "CHENNPETRO",
+        "daily": {
+          "close": 1044.1,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 7.5,
+          "distanceToSupport": 67.87,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 1044.1,
+      "peakPriceTime": null,
+      "lowestPrice": 1044.1,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778657527916-524",
+    "symbol": "EXIDEIND",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:32:07.916Z",
+      "price": 354.1,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "MED",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 72%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 420.17506,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 18.66,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:32:07.915Z",
+        "symbol": "EXIDEIND",
+        "daily": {
+          "close": 354.1,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 18.66,
+          "distanceToSupport": 3.05,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 354.1,
+      "peakPriceTime": null,
+      "lowestPrice": 354.1,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778659139904-261",
+    "symbol": "HINDPETRO",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-13T07:58:59.903Z",
+      "price": 384.6,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "MED",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 49%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 472.17342,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 22.77,
+      "marketContext": {
+        "timestamp": "2026-05-13T07:58:59.902Z",
+        "symbol": "HINDPETRO",
+        "daily": {
+          "close": 384.6,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 22.77,
+          "distanceToSupport": 17.93,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 384.6,
+      "peakPriceTime": null,
+      "lowestPrice": 384.6,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778740517037-333",
+    "symbol": "ABCAPITAL",
+    "status": "CLOSED",
+    "entry": {
+      "timestamp": "2026-05-14T06:35:17.037Z",
+      "price": 352.05,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 73%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 371.69439000000006,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 5.58,
+      "marketContext": {
+        "timestamp": "2026-05-14T06:35:17.036Z",
+        "symbol": "ABCAPITAL",
+        "daily": {
+          "close": 352.05,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 5.58,
+          "distanceToSupport": 33.77,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 352.05,
+      "peakPriceTime": null,
+      "lowestPrice": 352.05,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": {
+      "timestamp": "2026-05-18T04:32:21.578Z",
+      "price": 351.6,
+      "exitReason": "STOP_LOSS_1H_MIDDLE_BAND",
+      "reason": "",
+      "shortReason": "1H SL triggered",
+      "triggerDetails": {
+        "triggerType": "STOP_LOSS_1H_MIDDLE_BAND",
+        "triggerCondition": "2 consecutive 1H closes below 1H middle band",
+        "profitAtTrigger": -0.13,
+        "peakProfitBeforeExit": 2.76
+      },
+      "realizedPnL": -0.45,
+      "realizedPnLPercent": -0.13,
+      "peakUnrealizedPnL": 9.7,
+      "peakUnrealizedPnLPercent": 2.76,
+      "gaveBackPnL": 10.15,
+      "gaveBackPercent": 2.88,
+      "marketContext": {
+        "timestamp": "2026-05-18T04:32:21.578Z",
+        "symbol": "ABCAPITAL",
+        "daily": {
+          "close": 351.6,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 5.73,
+          "distanceToSupport": 33.62,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 13,
+          "stopLossLevel": null
+        },
+        "twoHour": {
+          "close": 352.2,
+          "upperBand": 362.42,
+          "middleBand": 351.75,
+          "lowerBand": 341.09,
+          "ema44": 353.31,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "priceVsEma44": "BELOW_EMA",
+          "trendState": "SIDEWAYS"
+        },
+        "oneHour": {
+          "close": 352.2,
+          "upperBand": 362.42,
+          "middleBand": 351.75,
+          "lowerBand": 341.09,
+          "ema44": 353.31,
+          "ema7Slant": "UPWARD",
+          "priceVsEma44": "BELOW_EMA"
+        }
+      }
+    },
+    "metrics": {
+      "entryAccuracy": "GOOD",
+      "exitAccuracy": "POOR",
+      "holdEfficiency": 0,
+      "riskManagement": "PROTECTED",
+      "setupFollowThrough": false
+    },
+    "tags": [
+      "loss",
+      "stop-loss-1h-middle-band",
+      "hold-0d",
+      "gave-back-profit"
+    ]
+  },
+  {
+    "id": "PT-1778740517039-363",
+    "symbol": "CESC",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-14T06:35:17.039Z",
+      "price": 183.86,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 64%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 188.64036000000002,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 2.6,
+      "marketContext": {
+        "timestamp": "2026-05-14T06:35:17.039Z",
+        "symbol": "CESC",
+        "daily": {
+          "close": 183.86,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 2.6,
+          "distanceToSupport": 31.32,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 183.86,
+      "peakPriceTime": null,
+      "lowestPrice": 183.86,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  },
+  {
+    "id": "PT-1778740517167-731",
+    "symbol": "VBL",
+    "status": "OPEN",
+    "entry": {
+      "timestamp": "2026-05-14T06:35:17.167Z",
+      "price": 497.1,
+      "quantity": 1,
+      "signalSource": "PDF2_PULLBACK",
+      "setupQuality": "HIGH",
+      "reason": "Pullback to middle band with bullish resume trigger. Range position: 76%. [MTF data unavailable — 1D only]",
+      "shortReason": "Pullback",
+      "stopLoss": null,
+      "target": 538.45872,
+      "riskRewardRatio": null,
+      "riskPercent": 0,
+      "rewardPercent": 8.32,
+      "marketContext": {
+        "timestamp": "2026-05-14T06:35:17.167Z",
+        "symbol": "VBL",
+        "daily": {
+          "close": 497.1,
+          "bollingerPosition": "MID",
+          "posture": "Open Range",
+          "distanceToResistance": 8.32,
+          "distanceToSupport": 28.76,
+          "ema7Slant": "UPWARD",
+          "ema14Slant": "UPWARD",
+          "trendScore": 23,
+          "stopLossLevel": null
+        },
+        "twoHour": null,
+        "oneHour": null
+      }
+    },
+    "tracking": {
+      "peakPrice": 497.1,
+      "peakPriceTime": null,
+      "lowestPrice": 497.1,
+      "lowestPriceTime": null,
+      "consecutive1HBelowMiddle": 0,
+      "holdingDays": 0
+    },
+    "exit": null,
+    "metrics": null,
+    "tags": []
+  }
+]

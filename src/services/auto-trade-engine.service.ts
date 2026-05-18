@@ -916,7 +916,7 @@ export async function runAutoTradeEngine(
           // Close enhanced trade
           closeEnhancedTrade(trade.id, exitSnapshot);
           
-          closePaperTrade(trade.id, currentPrice, exitDecision.exitReason);
+          await closePaperTrade(trade.id, currentPrice, exitDecision.exitReason);
           exitsThisCycle++;
         }
       }
@@ -957,7 +957,7 @@ export async function runAutoTradeEngine(
         entryMarketContext
       );
       
-      const trade = createPaperTrade({
+      const trade = await createPaperTrade({
         symbol: row.symbol,
         entryPrice: row.latestClose,
         signalSource: entryDecision.signalSource,

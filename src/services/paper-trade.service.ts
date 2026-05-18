@@ -4,46 +4,61 @@ import {
   PaperTradeExitReason,
   PaperTradeSummary,
 } from "../types/paper-trade.types";
-import { buildDetailedExitReason } from "./exit-reason-builder.service";  // *** ADD THIS LINE ***
+import { buildDetailedExitReason } from "./exit-reason-builder.service";
 import { getCachedLiveCandles } from "./live-market-cache.service";
-import {
-  readJsonCacheFile,
-  writeJsonCacheFile,
-} from "../utils/file-cache";
+import { getDatabase } from "../lib/mongodb";
 
-const TRADES_FILE = "paper-trades.json";
+const COLLECTION_NAME = "paper-trades";
 let paperTrades: PaperTrade[] = [];
 
 // ─── Persistence ────────────────────────────────────────
 
 export async function loadTradesFromDisk(): Promise<void> {
-  const saved = await readJsonCacheFile<PaperTrade[]>(TRADES_FILE);
-  if (saved && Array.isArray(saved)) {
-    // Migrate old trades that don't have new MTF fields
-    paperTrades = saved.map((t) => ({
-      ...t,
-      peakPrice: t.peakPrice ?? t.currentPrice ?? t.entryPrice,
-      consecutive1HBelowMiddle: t.consecutive1HBelowMiddle ?? 0,
-    }));
-    console.log(`[paper-trade] Loaded ${paperTrades.length} trades from disk.`);
+  try {
+    const db = await getDatabase();
+    const saved = await db.collection(COLLECTION_NAME)
+      .find({})
+      .toArray() as any[];
+    
+    if (saved && Array.isArray(saved)) {
+      // Migrate old trades that don't have new MTF fields
+      paperTrades = saved.map((t) => ({
+        ...t,
+        peakPrice: t.peakPrice ?? t.currentPrice ?? t.entryPrice,
+        consecutive1HBelowMiddle: t.consecutive1HBelowMiddle ?? 0,
+      }));
+      console.log(`[paper-trade] Loaded ${paperTrades.length} trades from MongoDB.`);
+    }
+  } catch (error) {
+    console.error('[paper-trade] Failed to load trades from MongoDB:', error);
+    paperTrades = [];
   }
 }
 
 async function saveTradesToDisk(): Promise<void> {
-  await writeJsonCacheFile(TRADES_FILE, paperTrades);
+  try {
+    const db = await getDatabase();
+    // Clear existing trades and insert all
+    await db.collection(COLLECTION_NAME).deleteMany({});
+    if (paperTrades.length > 0) {
+      await db.collection(COLLECTION_NAME).insertMany(paperTrades as any[]);
+    }
+  } catch (error) {
+    console.error('[paper-trade] Failed to save trades to MongoDB:', error);
+  }
 }
 
 // ─── Create trade ───────────────────────────────────────
 
-export function createPaperTrade(input: {
+export async function createPaperTrade(input: {
   symbol: string;
   entryPrice: number;
   signalSource: PaperTradeSignalSource;
   reason: string;
   stopLossLevel: number | null;
   targetResistance: number | null;
-}): PaperTrade {
-const trade: PaperTrade = {
+}): Promise<PaperTrade> {
+  const trade: PaperTrade = {
     id: `PT-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
     symbol: input.symbol.trim().toUpperCase(),
     side: "BUY",
@@ -58,7 +73,7 @@ const trade: PaperTrade = {
     exitPrice: null,
     exitDate: null,
     exitReason: null,
-    exitReasonDetailed: null,  // *** ADD THIS LINE ***
+    exitReasonDetailed: null,
     realizedPnL: null,
     realizedPnLPercent: null,
     status: "OPEN",
@@ -69,18 +84,18 @@ const trade: PaperTrade = {
     consecutive1HBelowMiddle: 0,
   };
   paperTrades.push(trade);
-  saveTradesToDisk();
+  await saveTradesToDisk();
   console.log(`[paper-trade] OPENED: ${trade.symbol} @ ₹${trade.entryPrice} | Signal: ${trade.entrySignalSource}`);
   return trade;
 }
 
 // ─── Close trade ────────────────────────────────────────
 
-export function closePaperTrade(
+export async function closePaperTrade(
   id: string,
   exitPrice: number,
   exitReason: PaperTradeExitReason
-): PaperTrade | null {
+): Promise<PaperTrade | null> {
   const trade = paperTrades.find((t) => t.id === id);
   if (!trade || trade.status === "CLOSED") return null;
 
@@ -88,7 +103,7 @@ export function closePaperTrade(
   trade.exitPrice = exitPrice;
   trade.exitDate = new Date().toISOString();
   trade.exitReason = exitReason;
-  trade.exitReasonDetailed = buildDetailedExitReason(trade, exitPrice, exitReason);  // *** ADD THIS LINE ***
+  trade.exitReasonDetailed = buildDetailedExitReason(trade, exitPrice, exitReason);
   trade.currentPrice = exitPrice;
 
   const pnl = exitPrice - trade.entryPrice;
@@ -100,11 +115,11 @@ export function closePaperTrade(
   trade.unrealizedPnL = 0;
   trade.unrealizedPnLPercent = 0;
 
-  saveTradesToDisk();
+  await saveTradesToDisk();
   console.log(
     `[paper-trade] CLOSED: ${trade.symbol} @ ₹${exitPrice} | P&L: ${trade.realizedPnLPercent}% | Reason: ${exitReason}`
   );
-  console.log(`[paper-trade] Detail: ${trade.exitReasonDetailed}`);  // *** ADD THIS LINE ***
+  console.log(`[paper-trade] Detail: ${trade.exitReasonDetailed}`);
   return trade;
 }
 
